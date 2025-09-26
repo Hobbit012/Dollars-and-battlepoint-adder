@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "economymod",
+  "version": "1.0.0",
+  "name": "💰 Economy Mod",
+  "description": "A fully customizable multi-currency economy system with /bal, /pay and /eco commands.",
+  "authors": [
+    "tonpseudo"
+  ],
+  "contact": {
+    "homepage": "https://github.com/tonpseudo/economymod",
+    "sources": "https://github.com/tonpseudo/economymod"
+  },
+  "license": "MIT",
+  "icon": "assets/economymod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tonpseudo.EconomyMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
